@@ -1,0 +1,121 @@
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.bg {
+ background-color: #999999;
+ border: 3px solid black; 
+}
+#mainp { 
+  background-color: #999999;
+  margin-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#p1 {    
+  border-style: none none solid solid;
+  border-color: black;
+  background-color: #D59898;
+  margin-bottom: 0px;   
+  margin-top: 0px;
+  text-align: center;
+  width: 90px; 
+  font-weight: bold;
+  font-size: 125%;
+}
+#p2 {  
+  border-style: none none solid   solid; 
+  border-color: black;
+  background-color:#C14543;
+  margin-bottom: 0px;   
+  margin-top: 0px; 
+  font-weight: bold;
+  text-align: center;
+  width: 90px;   
+  color: white;
+  font-size: 125%;
+}
+
+#p3 {    
+  border-style: none none solid   solid; 
+  border-color: black;
+  background-color:#E5D198;
+  margin-bottom: 0px;   
+  margin-top: 0px; 
+  font-weight: bold;
+  text-align: center;
+  width: 90px;
+  font-size: 125%;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+#xx { float: right;}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+.col-lg-4,.col-lg-6 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;   
+	margin-top: 10px;
+    padding-left: 15px;
+  }
+  .col-lg-4 { 
+    width: 33.33%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6, .col-md-12 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;   
+	margin-top: 10px;
+    padding-left: 15px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+/********** Small devices only **********/
+@media (max-width: 767px) {
+.col-xs-6, .col-xs-12 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;   
+	margin-top: 10px;
+    padding-left: 15px;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
