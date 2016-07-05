@@ -1,0 +1,68 @@
+
+/********** Base styles **********/
+.bg {
+ background-color: #999999;
+ border: 2px solid black; 
+}
+#mainp { 
+  margin-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#mainp a{ 
+	visibility: hidden;
+}
+h3 {
+color:white;  
+font-weight: bold;
+}
+
+/** HEADER **/
+
+.navbar-brand h1 {  
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+@media (min-width: 992px) {
+.col-lg-4,.col-lg-6 {
+	margin-top: 30px;
+  }
+ }
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6, .col-md-12 { 
+	margin-top: 30px;
+  }
+ }  
+ @media (max-width: 767px) {
+.col-xs-6, .col-xs-12 { 
+	margin-top: 30px;
+  } 
+#mainp a{ 
+	visibility: visible;
+}
+  } 
+@media (min-width: 992px) {
+.navbar-collapse {
+	visibility: hidden;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-collapse {
+	visibility: hidden;
+}
+}
